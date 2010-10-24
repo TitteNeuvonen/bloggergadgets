@@ -59,12 +59,12 @@ var s;
                 c = s.indexOf("\"", b + 5);
                 d = s.substr(b + 5, c - b - 5);
                 if ((a != -1) && (b != -1) && (c != -1) && (d != "")) thumbUrl = d;
-		if(thumbUrl.indexOf("static.flickr.com")!=-1) {thumbUrl= thumbUrl.replace("_b_t.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m_t.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_s_t.jpg","_s.jpg");
-		thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg","_s.jpg");}
-
+		
             }
 
         }
+	if(thumbUrl.indexOf("static.flickr.com")!=-1) {thumbUrl= thumbUrl.replace("_b_t.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m_t.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_s_t.jpg","_s.jpg");
+	thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg","_s.jpg");}
         if (thumbUrl == "" && showNoImage == true) thumbUrl = 'http://1.bp.blogspot.com/_u4gySN2ZgqE/SosvnavWq0I/AAAAAAAAArk/yL95WlyTqr0/s400/noimage.png';
     } //end ifposthumbs
     if (showPostDate == true) {
