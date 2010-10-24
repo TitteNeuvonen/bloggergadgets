@@ -59,6 +59,7 @@ var s;
                 c = s.indexOf("\"", b + 5);
                 d = s.substr(b + 5, c - b - 5);
                 if ((a != -1) && (b != -1) && (c != -1) && (d != "")) thumbUrl = d;
+		if(thumbUrl.indexOf("static.flickr.com")!=-1) {thumburl= thumbUrl.replace("_b_t.jpg","_s.jpg");thumburl= thumbUrl.replace("_m_t.jpg","_s.jpg");thumburl= thumbUrl.replace("_s_t.jpg","_s.jpg");}
 
             }
 
