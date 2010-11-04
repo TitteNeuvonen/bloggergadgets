@@ -25,6 +25,7 @@ var s;
     postTitleOriginal = postTitle;
     if (isNaN(titleLength) || titleLength == 0) {
         postTitle = '';
+
     }
     else if (postTitle.length > titleLength) postTitle = postTitle.substring(0, titleLength) + "...";
     var postUrl;
