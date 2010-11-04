@@ -212,7 +212,8 @@ function createLink(href,target,title)
 {
 
 var myLink = document.createElement('a');
-        myLink.setAttribute("href", href+"?utm_source=BP_recent");
+	if(href.substring(href.length-13,href.length)=="#comment-form") {href= href.substring(0,href.length-13)+"?utm_source=BP_recent"+"#comment-form";myLink.setAttribute("href", href);}
+        else myLink.setAttribute("href", href+"?utm_source=BP_recent");
         myLink.setAttribute("target", target);
         myLink.setAttribute("title", title);
         if(!underline) myLink.style.textDecoration="none";
