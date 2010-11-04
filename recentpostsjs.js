@@ -111,7 +111,7 @@ var s;
         //myImage.setAttribute("align", imgFloat);
         myImage.setAttribute("height", imgDim);
         myLink = document.createElement('a');
-        myLink.setAttribute("href", postUrl+"?utm_source=BP_rand");
+        myLink.setAttribute("href", postUrl+"?utm_source=BP_recent");
         myLink.setAttribute("target", "_top");
         myLink.setAttribute("title", postTitleOriginal);
         myLink.appendChild(myImage);
@@ -212,7 +212,7 @@ function createLink(href,target,title)
 {
 
 var myLink = document.createElement('a');
-        myLink.setAttribute("href", href+"?utm_source=BP_rand");
+        myLink.setAttribute("href", href+"?utm_source=BP_recent");
         myLink.setAttribute("target", target);
         myLink.setAttribute("title", title);
         if(!underline) myLink.style.textDecoration="none";
