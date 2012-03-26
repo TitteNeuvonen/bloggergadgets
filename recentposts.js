@@ -110,7 +110,7 @@ var s;
         myImage.setAttribute("width", imgDim);
         myImage.setAttribute("height", imgDim);
         myLink = document.createElement('a');
-        myLink.setAttribute("href", postUrl+"?utm_source=BP_recent");
+        myLink.setAttribute("href", postUrl+"?utm_source=bp_recent&utm-medium=gadget&utm_campaign=bp_recent");
         myLink.setAttribute("target", "_top");
         myLink.setAttribute("title", postTitleOriginal);
         myLink.appendChild(myImage);
@@ -212,8 +212,8 @@ function createLink(href,target,title)
 {
 
 var myLink = document.createElement('a');
-        if(href.substring(href.length-13,href.length)=="#comment-form") {href= href.substring(0,href.length-13)+"?utm_source=BP_recent"+"#comment-form";myLink.setAttribute("href", href);}
-        else myLink.setAttribute("href", href+"?utm_source=BP_recent");
+        if(href.substring(href.length-13,href.length)=="#comment-form") {href= href.substring(0,href.length-13)+"?utm_source=bp_recent&utm-medium=gadget&utm_campaign=bp_recent"+"#comment-form";myLink.setAttribute("href", href);}
+        else myLink.setAttribute("href", href+"?utm_source=BP_recent&utm-medium=gadget&utm_campaign=bp_recent");
         myLink.setAttribute("target", target);
         myLink.setAttribute("title", title);
         return myLink;
