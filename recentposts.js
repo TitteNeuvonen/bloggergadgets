@@ -60,7 +60,7 @@ var s;
         try{if(defaultImage!="") thumbUrl=defaultImage;}catch(error){}
         thumbUrl = thumbUrl.replace("/s72-c/","/s"+imgDim+"-c/");
         }
-    } //end ifposthumbs
+    } 
     if (showPostDate == true) {
         var postdate = entry.published.$t;
         var cdyear = postdate.substring(0, 4);
@@ -79,7 +79,7 @@ var s;
         monthnames[10] = "Oct";
         monthnames[11] = "Nov";
         monthnames[12] = "Dec";
-    } //end if date
+    } 
     code = "";
         main = document.getElementById('bp_recent');
         myDiv = document.createElement('div');
@@ -184,7 +184,7 @@ var s;
 
     if (flag == 1) main.appendChild(myDiv);
 
-}//close post loop
+}
 
 if(float_clear==true && imgFloat!="none")
 {
