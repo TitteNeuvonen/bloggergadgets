@@ -20,4 +20,4 @@ img_thumb_width = 100;
 
 Once these are defined, you can call the method
 
-createSummaryAndThumb(division_element_id) to summarize the content of the div with id "division_element_id"
+*createSummaryAndThumb(division_element_id)* to summarize the content of the div with id "division_element_id"
