@@ -8,9 +8,13 @@ Summarized the post and puts up a thumbnail by the side of the summary.
 == Details & Usage ==
 
 Expects the following variables to be defined
+
 summary_noimg = 230;
+
 summary_img = 140;
+
 img_thumb_height = 100;
+
 img_thumb_width = 100; 
 
 Once these are defined, you can call the method
