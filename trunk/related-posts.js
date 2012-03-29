@@ -30,7 +30,7 @@ function removeRelatedDuplicates() {
 
 }
 function contains(a, e) {
-	for(var j = 0; j < a.length; j++) {if (a[j]==e) {return true}};
+	for(var j = 0; j < a.length; j++) {if (a[j]==e) {return true;}};
 	return false;
 }
 function printRelatedLabels(currenturl) {
@@ -38,8 +38,8 @@ function printRelatedLabels(currenturl) {
 	{
 		if(relatedUrls[i]==currenturl)
 		{
-			relatedUrls.splice(i,1)
-			relatedTitles.splice(i,1)
+			relatedUrls.splice(i,1);
+			relatedTitles.splice(i,1);
 		}
 	}
 	var r = Math.floor((relatedTitles.length - 1) * Math.random());
