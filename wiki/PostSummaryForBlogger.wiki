@@ -10,13 +10,13 @@ Summarized the post and puts up a thumbnail by the side of the summary.
 
 Expects the following variables to be defined
 
-summary_noimg = 230;
+_summary_noimg = 230;_
 
-summary_img = 140;
+_summary_img = 140;_
 
-img_thumb_height = 100;
+_img_thumb_height = 100;_
 
-img_thumb_width = 100; 
+_img_thumb_width = 100;_
 
 Once these are defined, you can call the method
 
