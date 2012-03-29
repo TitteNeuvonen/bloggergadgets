@@ -9,6 +9,4 @@ Related Posts JavaScript
 
 Instructions on using this script can be found at http://www.bloggerplugins.org/2009/08/related-posts-for-blogger-widget.html
 
-The Script powering the Widget can be found at http://bloggergadgets.googlecode.com/svn/trunk/related-posts-with-thumbnails.js and the minified version can be found at  http://bloggergadgets.googlecode.com/files/related_posts_min.js
-
-I will update a compressed version very soon.
+The Script powering the Widget can be found at http://bloggergadgets.googlecode.com/svn/trunk/related-posts-with-thumbnails.js and the compressed version can be found at  http://bloggergadgets.googlecode.com/files/related_posts_min.js
