@@ -54,7 +54,7 @@ var s;
         }
 if(thumbUrl.indexOf("static.flickr.com")!=-1) {thumbUrl= thumbUrl.replace("_b_t.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m_t.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_s_t.jpg","_s.jpg");
 thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg","_s.jpg");}
-        if (thumbUrl == "" && showNoImage == true) 
+        if (thumbUrl == "" && feat_showNoImage == true) 
         {
         thumbUrl = "http://2.bp.blogspot.com/-erTXCq61ULM/TmHYAQBZ0GI/AAAAAAAACCs/6cBX54Dn6Gs/s72-c/default.png";
         try{if(feat_defaultImage!="") thumbUrl=feat_defaultImage;}catch(error){}
